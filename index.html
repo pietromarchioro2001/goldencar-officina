@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goldencar Officina</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="app">
+
+    <header class="topbar">
+      <img src="assets/logo.png" class="logo">
+    </header>
+
+    <main>
+
+      <section class="stats">
+
+        <div class="card">
+          <span>Lavori aperti</span>
+          <h2 id="lavori">0</h2>
+        </div>
+
+        <div class="card">
+          <span>Revisioni</span>
+          <h2 id="revisioni">0</h2>
+        </div>
+
+        <div class="card">
+          <span>Solleciti</span>
+          <h2 id="solleciti">0</h2>
+        </div>
+
+        <div class="card">
+          <span>Appuntamenti</span>
+          <h2 id="agenda">0</h2>
+        </div>
+
+      </section>
+
+      <section class="actions">
+
+        <button class="checkin" id="checkin">
+          📷 CHECK-IN
+        </button>
+
+        <button class="checkout" id="checkout">
+          🚗 CHECK-OUT
+        </button>
+
+      </section>
+
+      <section class="webbox">
+        <button class="web">
+          🌐 Apri sito fatture
+        </button>
+      </section>
+
+    </main>
+
+    <nav class="bottom">
+
+      <button class="active">Home</button>
+      <button>Agenda</button>
+      <button>Veicolo</button>
+      <button>Revisioni</button>
+      <button>Vendita</button>
+
+    </nav>
+
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
